@@ -1,0 +1,59 @@
+#experience{
+    padding: 135px 0px;
+
+    .experience-top-head{
+        text-align: center;
+        margin-bottom: 90px;
+    }
+
+    .carousel{
+        position: relative;
+        .carousel-indicators{
+            top: 0px;
+            width: 85%;
+            margin-left: 15%;
+            left: 0%;
+            position: static;
+            margin-bottom: 80px;
+            li{
+                text-indent: 0;
+                background: none;
+                border: none;
+                margin: 0px;
+                position: relative;
+                width: 24%;
+                &::before{
+                    position: absolute;
+                    content: "";
+                    border-top: 1px solid #C8CBD0;
+                    width: 265px;
+                    left: 0%;
+                }
+                &:active{
+                    width: 24%;
+                    height: 10px;
+                    margin: 0px;
+                    background: none;
+                    color: #6ECA3B;
+                    h4{
+                        font-size: 28px;
+                        left: 9%;
+                        margin-top: -35px;
+                    }
+                }
+                h4{
+                    position: absolute;
+                    left: 11%;
+                    margin-top: -30px;
+                    font-family: 'poppinsmedium';
+                }
+                i{
+                    position: absolute;
+                    margin-top: -10px;
+                    left: 15%;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

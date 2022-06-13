@@ -1,0 +1,25 @@
+#aboutme {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: url(../../assets/webmaster2-section-bg1.png);
+  background-color: #ffd79c;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 200px;
+
+  .left{
+    .service-bottom-content{
+      visibility: visible;
+      animation-name: fadeInUp;
+      margin-top: -75px;
+      position: relative;
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+  .right{
+    text-align: left;
+  }
+}

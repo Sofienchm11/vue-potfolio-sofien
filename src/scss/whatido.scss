@@ -1,0 +1,29 @@
+#whatido{
+    .process-bottom {
+        background: #E1E7F5;
+        padding: 75px 0px;
+        color: #242B54;
+        padding-top: 130px;
+        padding-bottom: 130px;
+        background-image: url(https://themes.muffingroup.com/be/webmaster2/wp-content/uploads/2021/02/webmaster2-section-bg2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .process-bottom ol li {
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .process-bottom ol li:last-child {
+        margin-bottom: 0px;
+    }
+    .process-bottom ol li span {
+        font-weight: normal;
+        margin-left: 20px;
+    }
+    .col-md-6{
+        &:nth-child(2) {
+            transform: translateY(20%);
+        }
+    }
+}
+/* end of Process bottom area */

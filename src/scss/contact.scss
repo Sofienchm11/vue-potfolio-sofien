@@ -1,0 +1,33 @@
+.contact {
+    padding-top: 130px;
+    padding-bottom: 90px;
+    background-color: #292c36;
+    background-image: url(https://themes.muffingroup.com/be/webmaster2/wp-content/uploads/2021/02/webmaster2-section-bg5.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    .left{
+        .contact-top {
+            color: #fff;
+            margin-bottom: 75px;
+            .portfolio-top-head {
+                padding-top: 75px;
+            }
+        }
+    }
+    .cover-contact {
+        background: #2f323d;
+        margin-top: 30px;
+        .contact-form {
+            width: 80%;
+            margin: 0 auto;
+            padding: 75px 0;
+            overflow: hidden;
+            .success {
+                color: green;
+            }
+            .error {
+                color: red;
+            }
+        }
+    }
+}
