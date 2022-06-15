@@ -3,8 +3,8 @@
     <MenuH />
     <banner />
     <about-me />
-    <portfolio />
     <experience />
+    <portfolio />
     <contact />
   </div>
 </template>

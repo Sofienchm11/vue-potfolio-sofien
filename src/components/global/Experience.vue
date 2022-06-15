@@ -13,85 +13,79 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
-						<div class="carousel slide" data-ride="carousel" id="quote">
-							<!-- Bottom Carousel Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#quote" data-slide-to="0" class="">
-									<h4>2016</h4>
-									<i class="fa fa-bullseye" aria-hidden="true"></i>
-								</li>
-								<li data-target="#quote" data-slide-to="1" class="active">
-									<h4>2019</h4>
-									<i class="fa fa-bullseye" aria-hidden="true"></i>
-								</li>
-								<li data-target="#quote" data-slide-to="2" class="">
-									<h4>Freelancer</h4>
-									<i class="fa fa-bullseye" aria-hidden="true"></i>
-								</li>
-							
-							</ol>
-							<!-- Carousel Slides / Quotes -->
-							<div class="carousel-inner">
-								<!-- Quote 1 -->
-								<div class="item">
-									<div class="experience-slide-one">
-										<div class="col-md-5">
-											<div class="experience-slide-img">
-												<img src="images/carthage_solutions.png" alt="">
-											</div>
-										</div>
-										<div class="col-md-7">
-											<div class="experience-slide-text">
-												<h3>December, 2016</h3>
-												<p>Configuration and customization of themes, plugins and builders according to customer needs 
-													(BeThemes, Divi, wooCommerce, Elementor, DiviBuilder, Visualcomposer…) Creation of Widgets for 
-													plugins (elementor and VisualComposer).
-                        </p>
-												<p>Integrate the design proposed via interface software ( figma, invision, adobe xd)</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="item active">
-									<div class="experience-slide-one">
-										<div class="col-md-5">
-											<div class="experience-slide-img">
-												<img src="images/enanotech.png" alt="">
-											</div>
-										</div>
-										<div class="col-md-7">
-											<div class="experience-slide-text">
-												<h3>August , 2019</h3>
-												<p>Create cutom widget for plugin builder (elementor and VisualComposer), Creation of custom WordPress themes using JavaScript, Html and CSS respecting user experience, crossdevice compatibility and SEO search engine optimizati </p>
-												<p>Creation of custom WordPress themes using JavaScript, Html and CSS respecting user experience, crossdevice compatibility and SEO search engine optimizati</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<div class="experience-slide-one">
-										<div class="col-md-5">
-											<div class="experience-slide-img">
-												<img src="images/freelancer.png" alt="">
-											</div>
-										</div>
-										<div class="col-md-7">
-											<div class="experience-slide-text">
-												<h3>February, 2016</h3>
-												<p>Collection and specifications of client's needs and estimate the duration of design and dev </p>
-												<p>Create visual mockup to integrate it on wordpress, prestashop cms and Angular and React js frameworks</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							
-							</div>
-							<!-- Carousel Buttons Next/Prev -->
-							<a data-slide="prev" href="#quote" class="left carousel-control"><i class="fa fa-angle-left"></i></a>
-							<a data-slide="next" href="#quote" class="right carousel-control"><i class="fa fa-angle-right"></i></a>
-						</div>
-					</div>
+					<div class="col-md-10 col-md-offset-1">
+                    <div class="experience-content">
+                        <div class="cd-timeline">
+                            <!--===Single Experience Start===-->
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img">
+                                    <span class="dot"></span>
+                                </div>
+                                <div class="cd-timeline-content">
+                                    <div class="cd-heading wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                                        <h2>graphics designer</h2>
+                                        <p>JAN 2009 - MAY 2010 | <span>creative alien</span></p>
+                                    </div>
+                                    <span class="cd-description wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.
+                                    </span>
+                                </div>
+                            </div>
+                            <!--===Single Experience End===-->
+
+                            <!--===Single Experience Start===-->
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img">
+                                    <span class="dot"></span>
+                                </div>
+                                <div class="cd-timeline-content">
+                                    <div class="cd-heading wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                                        <h2>interaction designer</h2>
+                                        <p><span>crafty designs</span> | FEB 2011 - MAR 2012</p>
+                                    </div>
+                                    <span class="cd-description wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.
+                                    </span>
+                                </div>
+                            </div>
+                            <!--===Single Experience End===-->
+
+                            <!--===Single Experience Start===-->
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img">
+                                    <span class="dot"></span>
+                                </div>
+                                <div class="cd-timeline-content">
+                                    <div class="cd-heading wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                                        <h2>UI/ UX DESIGNER</h2>
+                                        <p>JUN 2012 - MAY 2013 | <span>creative alien</span></p>
+                                    </div>
+                                    <span class="cd-description wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.
+                                    </span>
+                                </div>
+                            </div>
+                            <!--===Single Experience End===-->
+
+                            <!--===Single Experience Start===-->
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img">
+                                    <span class="dot"></span>
+                                </div>
+                                <div class="cd-timeline-content">
+                                    <div class="cd-heading wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                                        <h2>creative directive</h2>
+                                        <p><span>divergent studio</span> | AUG 2014 - JUN 2015</p>
+                                    </div>
+                                    <span class="cd-description wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.
+                                    </span>
+                                </div>
+                            </div>
+                            <!--===Single Experience End===-->
+                        </div>
+                    </div>
+                </div>
 				</div>
 			</div>
 		</section>
