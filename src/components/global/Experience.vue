@@ -1,8 +1,7 @@
 <template>
-  <div class="Experience">
-    <section class="experience" data-parallax="scroll" id="experience">
-			<div class="container">
-				<div class="row">
+    <section class="experience">
+        <div class="container">
+            <div class="row">
 					<div class="col-md-12 text-center">
 						<div class="experience-top-head">
 							<h2 class="head-two">Experience</h2>
@@ -12,84 +11,58 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-                    <div class="experience-content">
-                        <div class="cd-timeline">
-                            <!--===Single Experience Start===-->
-                            <div class="cd-timeline-block">
-                                <div class="cd-timeline-img">
-                                    <span class="dot"></span>
-                                </div>
-                                <div class="cd-timeline-content">
-                                    <div class="cd-heading wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                                        <h2>graphics designer</h2>
-                                        <p>JAN 2009 - MAY 2010 | <span>creative alien</span></p>
-                                    </div>
-                                    <span class="cd-description wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.
-                                    </span>
-                                </div>
-                            </div>
-                            <!--===Single Experience End===-->
-
-                            <!--===Single Experience Start===-->
-                            <div class="cd-timeline-block">
-                                <div class="cd-timeline-img">
-                                    <span class="dot"></span>
-                                </div>
-                                <div class="cd-timeline-content">
-                                    <div class="cd-heading wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                                        <h2>interaction designer</h2>
-                                        <p><span>crafty designs</span> | FEB 2011 - MAR 2012</p>
-                                    </div>
-                                    <span class="cd-description wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.
-                                    </span>
-                                </div>
-                            </div>
-                            <!--===Single Experience End===-->
-
-                            <!--===Single Experience Start===-->
-                            <div class="cd-timeline-block">
-                                <div class="cd-timeline-img">
-                                    <span class="dot"></span>
-                                </div>
-                                <div class="cd-timeline-content">
-                                    <div class="cd-heading wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                                        <h2>UI/ UX DESIGNER</h2>
-                                        <p>JUN 2012 - MAY 2013 | <span>creative alien</span></p>
-                                    </div>
-                                    <span class="cd-description wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.
-                                    </span>
-                                </div>
-                            </div>
-                            <!--===Single Experience End===-->
-
-                            <!--===Single Experience Start===-->
-                            <div class="cd-timeline-block">
-                                <div class="cd-timeline-img">
-                                    <span class="dot"></span>
-                                </div>
-                                <div class="cd-timeline-content">
-                                    <div class="cd-heading wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                                        <h2>creative directive</h2>
-                                        <p><span>divergent studio</span> | AUG 2014 - JUN 2015</p>
-                                    </div>
-                                    <span class="cd-description wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim.
-                                    </span>
-                                </div>
-                            </div>
-                            <!--===Single Experience End===-->
+            <div class="options">
+                <div class="option exp-1 active" style="--optionBackground:url('../../assets/elyos.png');">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fas fa-walking"></i>
+                        </div>
+                        <div class="info">
+                            <div class="main">Elyos digital</div>
+                            <div class="sub">Front end developer</div>
                         </div>
                     </div>
                 </div>
-				</div>
-			</div>
-		</section>
-  </div>
+                <div class="option exp-2" style="--optionBackground:url(https://66.media.tumblr.com/8b69cdde47aa952e4176b4200052abf4/tumblr_o51p7mFFF21qho82wo1_1280.jpg);">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <div class="info">
+                            <div class="main">Oretemauw</div>
+                            <div class="sub">Omuke trughte a otufta</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option exp-3" style="--optionBackground:url(https://66.media.tumblr.com/5af3f8303456e376ceda1517553ba786/tumblr_o4986gakjh1qho82wo1_1280.jpg);">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <div class="info">
+                            <div class="main">Iteresuselle</div>
+                            <div class="sub">Omuke trughte a otufta</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option exp-4" style="--optionBackground:url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg);">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="info">
+                            <div class="main">Idiefe</div>
+                            <div class="sub">Omuke trughte a otufta</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
 
 
@@ -99,7 +72,17 @@
 </style>
 
 <script>
+import $ from 'jquery'
+
 export default {
   name: "Experience-home",
+mounted () {
+   $(".option").click(function(){
+   $(".option").removeClass("active");
+   $(this).addClass("active");
+   
+});
+
+}
 };
 </script>
