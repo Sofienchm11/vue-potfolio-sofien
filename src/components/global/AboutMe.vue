@@ -10,7 +10,7 @@
         <div class="col-12 col-md-6 right">
           <div class="process-top-head">
 							<h6 class="webmaster2-heading1">// About me</h6>
-							<h3 class="webmaster2-heading1-h3"><span>Already passionate</span><span style="color:#f47aa0;"> about IT</span> communication and multimedia <span style="color:#423cc1;">from a long time.</span></h3>
+							<h3 class="webmaster2-heading1-h3"><span>I'm happy when I'm <span style="color:#f47aa0;"> creating, learning, exploring and thinking</span> about how to make things <span style="color:#423cc1;">better.</span></span> </h3>
           </div>
           <p>We specialise in WordPress development and custom WordPress Design. We have over ten years experience working with WordPress &amp; have watched it evolve over the years into a powerful CMS. </p>
           <br>

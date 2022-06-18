@@ -2,9 +2,9 @@
   <section class="portfolio" id="portfolio">
 			<div class="container">
 				<div class="row" v-if="list.length">
-          <ul class="portfolio" v-for="item in list" :key="item.id">
+          <ul class="portfolio" >
           
-            <li class="project option-1">
+            <li class="project option-1" v-for="item in list" :key="item.id">
               <div class="project-image" v-if="item.acf.image.url!=null"><img :src="item.acf.image.url"  alt="Sports Image"></div>
               <div class="project-info">
               <h2 class="project-info-title">{{item.title.rendered}}</h2>
@@ -36,7 +36,7 @@ export default {
     
   },
   created(){
-    axios.get('http://wp-admin.test/wp-json/wp/v2/portfolio').then(resp=>{
+    axios.get('http://portfolio.test/wp-json/wp/v2/portfolio').then(resp=>{
       console.log(resp);
 
       this.list=resp.data;
