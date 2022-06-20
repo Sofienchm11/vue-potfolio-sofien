@@ -6,6 +6,7 @@ import whatido from "../components/global/WhatIDo.vue";
 import aboutme from "../components/global/AboutMe.vue";
 import experience from "../components/global/Experience.vue";
 import Contact from "../components/global/Contact.vue";
+import Banner3 from "../components/global/Banner3.vue";
 
 Vue.use(VueRouter);
 
@@ -39,6 +40,11 @@ const routes = [
     path: "/contact",
     name: "contact",
     component: Contact,
+  },
+  {
+    path: "/Banner3",
+    name: "Banner3",
+    component: Banner3,
   },
 ];
 
