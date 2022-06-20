@@ -76,7 +76,7 @@ import $ from 'jquery'
 
 export default {
   name: "Experience-home",
-mounted () {
+    mounted () {
    $(".option").click(function(){
    $(".option").removeClass("active");
    $(this).addClass("active");

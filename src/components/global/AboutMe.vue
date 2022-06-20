@@ -1,5 +1,5 @@
 <template>
-  <div class="service-bottom" id="aboutme">
+  <section class="service-bottom" id="aboutme">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6 left">
@@ -21,7 +21,43 @@
         </div>
       </div>
     </div>
-  </div>
+
+    <section id="about-area" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-thum-area wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                        <div class="about-img">
+                            <img src="../../assets/profile-pic.png" alt="Resume Template">
+                        </div>
+                        <div class="resume-btn">
+                            <a href="#"><i class="fa fa-cloud-download"></i> Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="about-content-area wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                        <div class="section-title">
+                            <h2>About Me</h2>
+                        </div>
+
+                        <p>Hello! I’m Oliver Queen. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
+
+                        <ul class="profile-menu">
+                            <li><span>Name: </span> Oliver Queen</li>
+                            <li><span>Date of birth: </span> 14 February 1986</li>
+                            <li><span>Nationality: </span> Citizen Of Envato</li>
+                            <li><span>Address: </span> 23 High Hope Blvd., Some City, Some Country</li>
+                            <li><span>Phone: </span> (123) - 456-7890, (123) - 456-7890</li>
+                            <li><span>E-Mail: </span> oliver.queen@yahoo.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </section>
 </template>
 
 <style lang="scss">
