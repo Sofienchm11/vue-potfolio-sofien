@@ -4,23 +4,25 @@
     <div class="banner_2" id="banner_2">
         <div class="container">
             <div class="row">
-                <div class="terminal-window">
-                    <header>
-                        <div class="button green"></div>
-                        <div class="button yellow"></div>
-                        <div class="button red"></div>
-                    </header>
-                </div>
-                <div class="terminal">
-                    <span class="dollar"></span> hi there, i'm Sofien
-                    <br/>
-                    <span class="dollar"></span> a web developer
-                    <br/>
-                    <span class="dollar"></span> based in uk
-                    <br/>
-                    <span class="dollar"></span> i drink a lot of tea
-                    <br/>
-                    <span class="dollar"></span> and build beautiful websites
+                <div class="banner_terminal">
+                    <div class="terminal-window">
+                        <header>
+                            <div class="button green"></div>
+                            <div class="button yellow"></div>
+                            <div class="button red"></div>
+                        </header>
+                        <div class="terminal">
+                            <span class="dollar"></span> hi there, i'm Sofien
+                            <br/>
+                            <span class="dollar"></span> a web developer
+                            <br/>
+                            <span class="dollar"></span> based in uk
+                            <br/>
+                            <span class="dollar"></span> i drink a lot of tea
+                            <br/>
+                            <span class="dollar"></span> and build beautiful websites
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,6 +70,11 @@ export default{
         return this
         };
         $(".terminal").typewriter();
+
+        $(".button.red").click(function(){
+            $(".banner_terminal").addClass("close");
+        });
     }
+    
 }
 </script>

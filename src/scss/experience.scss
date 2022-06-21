@@ -1,6 +1,22 @@
 $optionDefaultColours: #ED5565,#FC6E51,#FFCE54,#2ECC71,#5D9CEC,#AC92EC;
 
-body {
+.experience {
+   .experience-top-head{
+      h2{
+         color: #ccd6f6;
+         &::before{
+           position: relative;
+           bottom: 4px;
+           counter-increment: section 2;
+           content: "0" counter(section) ".";
+           margin-right: 10px;
+           color: #64ffda;
+           font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+           font-size: 20px;
+           font-weight: 400;
+         }
+      }
+   }
    .credit {
       position: absolute;
       bottom:20px;

@@ -5,6 +5,7 @@
     <banner />
     <about-me />
     <experience />
+    <Whatido />
     <portfolio />
     <contact />
   </div>
@@ -18,9 +19,10 @@ import Banner2 from "@/components/global/banner2.vue";
 import AboutMe from "@/components/global/AboutMe.vue";
 import Portfolio from "@/components/global/Portfolio.vue";
 import Experience from "@/components/global/Experience.vue";
+import Whatido from "@/components/global/WhatIDo.vue";
 import Contact from "@/components/global/Contact.vue";
 export default {
-  components: { MenuH, Banner, Banner2, AboutMe, Portfolio, Experience, Contact },
+  components: { MenuH, Banner, Banner2, AboutMe, Portfolio, Experience, Whatido, Contact },
   name: "HomeView",
 };
 </script>
