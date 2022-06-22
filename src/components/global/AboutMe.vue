@@ -1,29 +1,64 @@
 <template>
-  <div class="service-bottom" id="aboutme">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6 left">
-            <div class="service-bottom-content wow fadeInUp">
-                <img src="../../assets/sofien-chm2.png" alt="">
+  <section class="service-bottom" id="aboutme">
+    <!-- 
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 left">
+              <div class="service-bottom-content wow fadeInUp">
+                  <img src="../../assets/sofien-chm2.png" alt="">
+              </div>
             </div>
-          </div>
-        <div class="col-12 col-md-6 right">
-          <div class="process-top-head">
-							<h6 class="webmaster2-heading1">// About me</h6>
-							<h3 class="webmaster2-heading1-h3"><span>I'm happy when I'm <span style="color:#f47aa0;"> creating, learning, exploring and thinking</span> about how to make things <span style="color:#423cc1;">better.</span></span> </h3>
-          </div>
-          <p>We specialise in WordPress development and custom WordPress Design. We have over ten years experience working with WordPress &amp; have watched it evolve over the years into a powerful CMS. </p>
-          <br>
-          <p>We create bespoke WordPress themes for your business website, which means they look great, run fast are designed for user experience and coded for search engine friendliness! Our sites are..</p>
-          <div class="aboutme_section">
-            <div><i class="fa fa-search" aria-hidden="true"></i>Lightning Fast Speed</div>
-            <div><i class="fa fa-search" aria-hidden="true"></i>Easy To Navigate</div>
-            <div><i class="fa fa-search" aria-hidden="true"></i>SEO Friendly</div>
+          <div class="col-12 col-md-6 right" >
+            <div class="process-top-head" >
+                <h6 class="webmaster2-heading1">{{list.title.rendered}}</h6>
+                <h3 class="webmaster2-heading1-h3"><span>{{list.acf.title}}</span></h3>
+            </div>
+            <p> {{list.acf.description}}</p>
+            <div class="aboutme_section">
+              <div><i class="fa fa-search" aria-hidden="true"></i>Lightning Fast Speed</div>
+              <div><i class="fa fa-search" aria-hidden="true"></i>Easy To Navigate</div>
+              <div><i class="fa fa-search" aria-hidden="true"></i>SEO Friendly</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    -->
+    <section id="about-area" class="section-padding"  v-motion:initial="{opacity: 0, y: 100,}" :enter="{opacity: 1, y: 0, }">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-area-left about-thum-area wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                        <div class="about-img">
+                            <img src="../../assets/profile-pic.png" alt="Resume Template">
+                        </div>
+                        <div class="resume-btn">
+                          <button class="custom-btn btn-15">Download Resume</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="about-area-right about-content-area wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                        <div class="section-title">
+                            <h2>About Me</h2>
+                        </div>
+
+                        <p>Hello! I’m Sofien cheikh mohamed. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
+
+                        <ul class="profile-menu">
+                            <li><span>Name: </span> Sofien cheikh mohamed</li>
+                            <li><span>Date of birth: </span> 14 February 1986</li>
+                            <li><span>Nationality: </span> Citizen Of Envato</li>
+                            <li><span>Address: </span> 23 High Hope Blvd., Some City, Some Country</li>
+                            <li><span>Phone: </span> (123) - 456-7890, (123) - 456-7890</li>
+                            <li><span>E-Mail: </span> oliver.queen@yahoo.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </section>
 </template>
 
 <style lang="scss">
@@ -39,30 +74,14 @@ import axios from 'axios';
 export default {
   name: "about-me",
 
-  created(){
-    this.getUserList();
+  data(){
+    return {list:undefined};
   },
-  methods : {
-
-
-  getUserList(){
-  axios.get('http://wp-admin.test/wp-json/wp/v2/posts')
-  .then(function (response) {
-    // handle success
-    console.log(response.data);
-  })
-  .catch(function (error) {
-    // handle error
-    console.log(error);
-  })
-  .then(function () {
-    // always executed
-  });
-  }
-
-
-
-
+  created(){
+    axios.get('http://wp-admin.test/wp-json/wp/v2/pages/35').then(resp=>{
+      this.list=resp.data;
+      console.log(this.list)
+    })
   }
 };
 </script>

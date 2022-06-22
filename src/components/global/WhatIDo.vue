@@ -2,35 +2,97 @@
     <section class="whatido" id="whatido">
         <div class="process-bottom" >
 			<div class="container">
-                <h6 class="webmaster2-heading1">// WHAT I DO?</h6>
-                <h3 class="webmaster2-heading1-h3"><span style="color:#f47aa0;">Websites</span> just from scratch. We can make your online shop or just <span style="color:#423cc1;">business card webpage.</span></h3>
-                <div class="row">
-                    <div class="col-md-6" v-for="item in list" :key="item.id">
-                        <div class="process-bottom-content wow zoomIn ">
-                            <div class="wrap mcb-wrap mcb-wrap-zr0i5hehk one-second  valign-top clearfix " style="">
-                                <div class="mcb-wrap-inner">
-                                    <div class="column mcb-column mcb-item-uriefrd5j one column_divider">
-                                        <hr class="no_line" style="margin: 0 auto 70px auto ;     height: 0;">
+                <h2 class="head-two">What i do</h2>
+                <ul class="projects-grid">
+                    <li class="projects__StyledProject" style="" data-sr-id="9">
+                        <div class="project-inner">
+                            <header>
+                                <div class="project-top">
+                                    <div class="folder">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
                                     </div>
-                                        <div class="column mcb-column mcb-item-0qfc3fve2 four-fifth column_image service-1">
-                                            <div class="image_frame image_item no_link scale-with-grid no_border">
-                                                <div class="image_wrapper">
-                                                    <img class="scale-with-grid" :src="item.acf.icon.url" alt="webmaster2-works-icon1" title="" width="109" height="109">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="column mcb-column mcb-item-oznlxr4j7 four-fifth column_column"><div class="column_attr clearfix" style="">
-                                            <h4>{{item.title.rendered}}</h4>
-                                            <hr class="no_line" style="margin: 0 auto 10px auto;     height: 0;">
-                                            {{item.content.rendered}}
-                                        </div>
+                                    <div class="project-links">
+                                        <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" aria-label="External Link" class="external" target="_blank" rel="noopener noreferrer">
+                                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                        </a>
                                     </div>
                                 </div>
-                            </div>
+                                <h3 class="project-title">
+                                    <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Wordpress developer</a>
+                                </h3>
+                                <div class="project-description">
+                                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                                </div>
+                            </header>
+                            <footer>
+                                <ul class="project-tech-list">
+                                    <li>Algolia</li>
+                                    <li>WordPress</li>
+                                    <li>PHP</li>
+                                </ul>
+                            </footer>
                         </div>
-                    </div>
-                </div>
-			</div>
+                    </li>
+                    <li class="projects__StyledProject" style="" data-sr-id="9">
+                        <div class="project-inner">
+                            <header>
+                                <div class="project-top">
+                                    <div class="folder">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" aria-label="External Link" class="external" target="_blank" rel="noopener noreferrer">
+                                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="project-title">
+                                    <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Integrateur</a>
+                                </h3>
+                                <div class="project-description">
+                                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                                </div>
+                            </header>
+                            <footer>
+                                <ul class="project-tech-list">
+                                    <li>Algolia</li>
+                                    <li>WordPress</li>
+                                    <li>PHP</li>
+                                </ul>
+                            </footer>
+                        </div>
+                    </li>
+                    <li class="projects__StyledProject" style="" data-sr-id="9">
+                        <div class="project-inner">
+                            <header>
+                                <div class="project-top">
+                                    <div class="folder">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder"><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" aria-label="External Link" class="external" target="_blank" rel="noopener noreferrer">
+                                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h3 class="project-title">
+                                    <a href="https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c" target="_blank" rel="noopener noreferrer">Front end developer</a>
+                                </h3>
+                                <div class="project-description">
+                                    <p>Building a custom multisite compatible WordPress plugin to build global search with Algolia</p>
+                                </div>
+                            </header>
+                            <footer>
+                                <ul class="project-tech-list">
+                                    <li>Algolia</li>
+                                    <li>WordPress</li>
+                                    <li>PHP</li>
+                                </ul>
+                            </footer>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 		</div>
     </section>
 </template>
@@ -41,24 +103,10 @@
 </style>
 
 <script>
-import axios from 'axios';
 
 
 export default {
   name: "what-ido",
-
-  data(){
-    return {list:undefined};
-    
-  },
-  created(){
-    axios.get('http://wp-admin.test/wp-json/wp/v2/what_i_do').then(resp=>{
-      console.log(resp);
-
-      this.list=resp.data;
-    })
-  }
-
 };
 
 </script>
