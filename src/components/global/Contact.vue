@@ -1,78 +1,41 @@
 <template>
   <div class="contact">
     <section class="contact" id="contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-left">
-						<div class="contact-top">
-							<div class="portfolio-top-head">
-								<h6 style="color:#848c97" class="webmaster2-heading1">// SAY HELLO</h6>
-								<h3 class="webmaster2-heading1-h3"> <span style="color:#aef1ff;">Do you want </span> <span style="color:#f2f5ff;">to talk </span> <span style="color:#aef1ff;">about your </span> <span style="color:#ffd79c;">web project</span><span style="color:#e8a3ec;">?</span> <span style="color:#aef1ff;">Feel free </span> <span style="color:#e8a3ec;">&amp; </span> <span style="color:#aef1ff;">contact me</span><span style="color:#e8a3ec;">!</span></h3>							</div>
-						</div>
+		<div class="container">
+			<div class="row">
+				<div class="contact_cont">
+				<div class="contact__header">
+					<h4 class="contact__header__overley">What’s Next?</h4>
+					<h2 class="contact__header__title">Get In Touch</h2>
+					<p>my inbox is always open. Whether you have a question or <br> just want to say hi, I’ll try my best to get back to you!</p>
+				</div>
+				<div class="contact__body">
+					<ul class="wrapper">
+						<li class="icon linkedin">
+							<span class="tooltip">Linkedin</span>
+							<span><font-awesome-icon icon="fa-brands fa-linkedin" /></span>
+						</li>
+						<li class="icon github">
+							<span class="tooltip">Github</span>
+							<span><font-awesome-icon icon="fab fa-github" /></span>
+						</li>
+						<li class="icon Mailchimp">
+							<span class="tooltip">Mailchimp</span>
+							<span><font-awesome-icon icon="fab fa-mailchimp" /></span>
+						</li>
+						<li class="icon skype">
+							<span class="tooltip">Skype</span>
+							<span><font-awesome-icon icon="fab fa-skype" /></span>
+						</li>
+					</ul>
+					<div class="contact__body__email">
+						<a class="email-link" href="mailto:cheikhmouhamedsofien@gmail.com" rel="noopener noreferrer" target="_blank">Mail me</a>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12 cover-contact">
-						<div class="contact-form wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-              <form class="form-inline" id="contact-form">
-                  <!-- IF MAIL SENT SUCCESSFULLY -->
-                  <div class="success">
-                      Your message has been sent successfully.
-                  </div>
-                  <!-- IF MAIL SENDING UNSUCCESSFULL -->
-                  <div class="error">
-                      E-mail must be valid and message must be longer than 1 character.
-                  </div>
-								<!-- Form Fields -->
-								<div class="col-md-4">
-									<div class="form-group">
-										<label class="sr-only" for="first_name">First Name</label>
-										<input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name">
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-										<label class="sr-only" for="last_name">Last Name</label>
-										<input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name">
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-										<label class="sr-only" for="phone_number">Phone</label>
-										<input type="text" class="form-control" id="phone_number" name="phone_number" placeholder="Phone">
-									</div>
-								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-										<label class="sr-only" for="email_address">Email</label>
-										<input type="email" class="form-control" id="email_address" name="email_address" placeholder="Email Address">
-                  </div>
-								</div>
-								<div class="col-md-8">
-									<div class="form-group">
-										<select id="contact_reason" name="contact_reason">
-											<option value="Reason of Contact">Reason of Contact</option>
-											<option value="Reason of Contact">Reason of Contact</option>
-											<option value="Reason of Contact">Reason of Contact</option>
-											<option value="Reason of Contact">Reason of Contact</option>
-										</select>
-										<i class="fa fa-angle-down" aria-hidden="true"></i>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="form-group-textarea">
-										<textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
-									</div>
-								</div>
-								<div class="col-md-12 text-center">
-									<button type="submit" name="submit" id="submit">Contact Now</button>
-								</div>
-							</form>
-						</div>
-					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
   </div>
 </template>
 

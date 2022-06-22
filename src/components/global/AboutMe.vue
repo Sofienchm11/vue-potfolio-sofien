@@ -44,7 +44,7 @@
                         </div>
 
                         <p>Hello! I’m Sofien cheikh mohamed. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
-
+                        <p>I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal, Magento, Keystone.js and others) .</p>
                         <ul class="profile-menu">
                             <li><span>Name: </span> Sofien cheikh mohamed</li>
                             <li><span>Date of birth: </span> 14 February 1986</li>
