@@ -7,26 +7,26 @@
             </div>
             <div class="nav__StyledLinks">
                 <ol>
-                    <li class="fadedown-enter-done" style="transition-delay: 0ms;">
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300">
                         <router-link to="/">Home</router-link>
                     </li>
-                    <li class="fadedown-enter-done" style="transition-delay: 100ms;">
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="400">
                         <router-link to="/about">About Me</router-link>
                     </li>
-                    <li class="fadedown-enter-done" style="transition-delay: 200ms;">
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
                         <router-link to="/portfolio">Portfolio</router-link>
                     </li>
-                    <li class="fadedown-enter-done" style="transition-delay: 300ms;">
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="600">
                         <router-link to="/whatido">What i do</router-link>
                     </li>
-                    <li class="fadedown-enter-done" style="transition-delay: 400ms;">
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
                         <router-link to="/experience">Experience</router-link>
                     </li>
-                    <li class="fadedown-enter-done" style="transition-delay: 500ms;">
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="800">
                         <router-link to="/contact">Contact</router-link>
                     </li>
                 </ol>
-            <div class="fadedown-enter-done resume" style="transition-delay: 400ms;">
+            <div class="fadedown-enter-done resume" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900">
                 <a class="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
             </div>

@@ -3,7 +3,7 @@
     <MenuH />
     <Banner2 />
     <banner />
-    <about-me />
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"><about-me /></div>
     <experience />
     <Whatido />
     <portfolio />

@@ -27,8 +27,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="about-area-left about-thum-area wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                        <div class="about-img">
+                    <div class="about-area-left about-thum-area">
+                        <div class="about-img" data-aos="flip-up">
                             <img src="../../assets/profile-pic.png" alt="Resume Template">
                         </div>
                         <div class="resume-btn">
@@ -38,7 +38,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="about-area-right about-content-area wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                    <div class="about-area-right about-content-area">
                         <div class="section-title">
                             <h2>About Me</h2>
                         </div>
