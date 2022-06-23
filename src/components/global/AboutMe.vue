@@ -31,7 +31,7 @@
                         <div class="about-img" data-aos="flip-up">
                             <img src="../../assets/profile-pic.png" alt="Resume Template">
                         </div>
-                        <div class="resume-btn">
+                        <div class="resume-btn" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="300">
                           <button class="custom-btn btn-15">Download Resume</button>
                         </div>
                     </div>
