@@ -1,21 +1,50 @@
 <template>
   <section class="portfolio" id="portfolio">
 			<div class="container">
-				<div class="row" v-if="list.length">
-          <ul class="portfolio" v-for="item in list" :key="item.id">
-          
-            <li class="project option-1">
-              <div class="project-image" v-if="item.acf.image.url!=null"><img :src="item.acf.image.url"  alt="Sports Image"></div>
-              <div class="project-info">
-              <h2 class="project-info-title">{{item.title.rendered}}</h2>
-              <a class="project-info-button" href="#" target="_blank">View Project</a>
-              </div>
-            </li>
-          </ul>
-        
-			</div>
+				<div class="protfolio__upper">
+          <div class="section-title">
+              <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="portfolio__bottom">
+          <div class="portfolio__bottom__filter">
+            <div class="filter__heading">
+              <ul>
+                <li><a href="#" class="btn btn1" data-filter="Wordpress, Front, Design">All</a></li>
+                <li><a href="#" class="btn btn1" data-filter="Wordpress">Wordpress</a></li>
+                <li><a href="#" class="btn btn1" data-filter="Front">Front end</a></li>
+                <li><a href="#" class="btn btn1" data-filter="Design">Design</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="portfolio__bottom__content">
+            <ul class="content__items row">
+              <li class="content__items__list col-4">
+                <div class="list__img"><img src="../../assets/capi.jpg" alt=""></div>
+                <div class="list__overlay">
+                  <div class="overlay__content">
+                    <h1>title</h1>
+                    <p>description</p>
+                  </div>
+                </div>
+              </li>
+              <li class="content__items__list col-4">
+                <div class="list__img"><img src="../../assets/capi.jpg" alt=""></div>
+                <div class="list__overlay">
+                  <div class="overlay__content">
+                    <h1>title</h1>
+                    <p>description</p>
+                  </div>
+                </div>
+              </li>
+              <li class="content__items__list col-4">
+                <div class="list__img"><img src="../../assets/capi.jpg" alt=""></div>
+                <div class="list__links"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-
 		</section>
 </template>
 

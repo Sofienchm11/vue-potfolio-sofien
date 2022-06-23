@@ -26,6 +26,7 @@
     <section id="about-area" class="section-padding">
         <div class="container">
             <div class="row">
+              
                 <div class="col-md-6">
                     <div class="about-area-left about-thum-area">
                         <div class="about-img" data-aos="flip-up">
