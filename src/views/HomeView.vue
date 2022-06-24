@@ -2,6 +2,7 @@
   <div class="home">
     <MenuH />
     <Banner2 />
+    
     <banner />
     <div data-aos="fade-up" data-aos-anchor-placement="top-bottom"><about-me /></div>
     <experience />

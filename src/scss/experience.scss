@@ -137,6 +137,9 @@ $optionDefaultColours: #ED5565,#FC6E51,#FFCE54,#2ECC71,#5D9CEC,#AC92EC;
 
                background-color:white;
                color:var(--defaultBackground);
+               img{
+                  border-radius: 15%;
+               }
             }
             .info {
                display:flex;
@@ -192,6 +195,15 @@ $optionDefaultColours: #ED5565,#FC6E51,#FFCE54,#2ECC71,#5D9CEC,#AC92EC;
 .option{
   &.exp-1{
    --optionBackground: url("../../assets/elyos.png") !important;
+  }
+  &.exp-2{
+   --optionBackground: url("../../assets/gostaff.png") !important;
+  }
+  &.exp-3{
+   --optionBackground: url("../../assets/enano-tech.jpg") !important;
+  }
+  &.exp-4{
+   --optionBackground: url("../../assets/carthage.png") !important;
   }
 }
 #experience{

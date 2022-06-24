@@ -16,11 +16,11 @@
                             <br/>
                             <span class="dollar"></span> a web developer
                             <br/>
-                            <span class="dollar"></span> based in uk
+                            <span class="dollar"></span> based in TN
                             <br/>
                             <span class="dollar"></span> i drink a lot of tea
                             <br/>
-                            <span class="dollar"></span> and build beautiful websites
+                            <span class="dollar"></span> interactive websites that run across platforms & devices
                         </div>
                     </div>
                 </div>

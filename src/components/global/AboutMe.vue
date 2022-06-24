@@ -23,7 +23,7 @@
         </div>
       </div>
     -->
-    <section id="about-area" class="section-padding">
+    <section id="about-area" class="section-padding"  v-motion:initial="{opacity: 0, y: 100,}" :enter="{opacity: 1, y: 0, }">
         <div class="container">
             <div class="row">
               
@@ -44,15 +44,14 @@
                             <h2>About Me</h2>
                         </div>
 
-                        <p>Hello! I’m Sofien cheikh mohamed. Web Developer with over 8 years of experience. Experienced with all stages of the development cycle for dynamic web projects. Having an in-depth knowledge including advanced HTML5, CSS3, JavaScript, jQuery, Angular JS. Strong background in management and leadership.</p>
-                        <p>I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal, Magento, Keystone.js and others) .</p>
+                        <p>Hello! I’m Sofien cheikh mohamed. I am a programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team</p>
+                        <p>I also have full-stack developer experience with popular open-source CMS like (WordPress) .</p>
                         <ul class="profile-menu">
                             <li><span>Name: </span> Sofien cheikh mohamed</li>
-                            <li><span>Date of birth: </span> 14 February 1986</li>
-                            <li><span>Nationality: </span> Citizen Of Envato</li>
-                            <li><span>Address: </span> 23 High Hope Blvd., Some City, Some Country</li>
+                            <li><span>Date of birth: </span> 14 may 1991</li>
+                            <li><span>Nationality: </span> Tunisia</li>
                             <li><span>Phone: </span> (123) - 456-7890, (123) - 456-7890</li>
-                            <li><span>E-Mail: </span> oliver.queen@yahoo.com</li>
+                            <li><span>E-Mail: </span> email@yahoo.com</li>
                         </ul>
                     </div>
                 </div>
