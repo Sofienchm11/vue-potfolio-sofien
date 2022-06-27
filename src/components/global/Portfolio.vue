@@ -25,13 +25,13 @@
                 </div>
                 <div class="list__overlay">
                   <div class="overlay__content">
-                    <h1>Capi</h1>
+                    <h1>{{item.title.rendered}}</h1>
                     <ul class="project-tech-list">
                       <li>Algolia</li>
                       <li>WordPress</li>
                       <li>PHP</li>
                     </ul>
-                    <a href="#" class="anim-09">See project</a>
+                    <a :href="item.acf.link" class="anim-09">See project</a>
                   </div>
                 </div>
               </li>
@@ -72,7 +72,7 @@ export default {
     
   },
   created(){
-    axios.get('http://portfolio.test/wp-json/wp/v2/portfolio').then(resp=>{
+    axios.get('http://wp-admin.test/wp-json/wp/v2/portfolio').then(resp=>{
       console.log(resp);
 
       this.list=resp.data;
