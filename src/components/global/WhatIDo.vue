@@ -4,7 +4,7 @@
 			<div class="container">
                 <h2 class="head-two">What i do</h2>
                 <ul class="projects-grid">
-                    <li class="projects__StyledProject" style="" data-sr-id="9">
+                    <li class="projects__StyledProject" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <div class="project-inner">
                             <header>
                                 <div class="project-top">
@@ -33,7 +33,7 @@
                             </footer>
                         </div>
                     </li>
-                    <li class="projects__StyledProject" style="" data-sr-id="9">
+                    <li class="projects__StyledProject" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                         <div class="project-inner">
                             <header>
                                 <div class="project-top">
@@ -62,7 +62,7 @@
                             </footer>
                         </div>
                     </li>
-                    <li class="projects__StyledProject" style="" data-sr-id="9">
+                    <li class="projects__StyledProject" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="4000">
                         <div class="project-inner">
                             <header>
                                 <div class="project-top">
